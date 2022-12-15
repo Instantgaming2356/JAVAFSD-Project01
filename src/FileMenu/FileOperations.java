@@ -11,6 +11,7 @@ public class FileOperations {
 
     Scanner sc = new Scanner(System.in);
     String filename;
+    char ch;
     public void AddFile()   {
         System.out.print("Please Enter the file name with extension to Create : ");
         filename = sc.nextLine();
@@ -18,7 +19,24 @@ public class FileOperations {
         File file = new File("src/Shared/" + filename);
         try {
             boolean val = file.createNewFile();
-            if(val) System.out.println("File Created!!!");
+            if(val) {
+                System.out.println("File Created!!!");
+                System.out.println("Do You Want to add Content");
+                ch = sc.next().charAt(0);
+                if(ch == 'Y' || ch == 'y') {
+                    System.out.print("Enter the Overwrite Content : ");
+                    sc.nextLine();
+                    String fileData = sc.nextLine();
+                    try {
+                        FileWriter writeData = new FileWriter("src/Shared/" + filename);
+                        writeData.write(fileData);
+                        System.out.println("Data is successfully added to the file.");
+                        writeData.close();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
             else System.out.println("Unable to create");
         } catch(Exception e)	{
             e.printStackTrace();
