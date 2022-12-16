@@ -12,9 +12,8 @@ public class FileOptions implements Screen {
     public FileOptions() {
         options.add("1. Add A File");
         options.add("2. Delete A File");
-        options.add("3. Adding Content in a File");
-        options.add("4. Search A File");
-        options.add("5. Return to Menu");
+        options.add("3. Search A File");
+        options.add("4. Return to Menu");
     }
 
     @Override
@@ -27,7 +26,7 @@ public class FileOptions implements Screen {
 
     @Override
     public void NavigateOption(int option) {
-        switch(option) {
+        switch (option) {
             case 1:
                 System.out.println("Adding File...");
                 file.AddFile();
@@ -37,29 +36,23 @@ public class FileOptions implements Screen {
                 file.DeleteFile();
                 break;
             case 3:
-                System.out.println("Adding Content in a File...");
-                file.AddingContentInFile();
-                break;
-            case 4:
                 System.out.println("Searching the file...");
                 file.SearchFile();
-                break;
-            default:
                 break;
         }
     }
 
     @Override
     public void GetUserInput() {
-        char ch = 'y';
-        int sch;
-        while(ch == 'y' || ch == 'Y')   {
+        //char ch = 'y';
+        int sch = 0;
+        while (sch != 4) {//ch == 'y' || ch == 'Y')   {
             this.Show();
             System.out.print("Enter the choice : ");
             sch = sc.nextInt();
             this.NavigateOption(sch);
-            System.out.println("Do You Want to Continue with File Menu.. ? (Y/N)");
-            ch = sc.next().charAt(0);
+            //System.out.println("Do You Want to Continue with File Menu.. ? (Y/N)");
+            //ch = sc.next().charAt(0);
         }
     }
 }

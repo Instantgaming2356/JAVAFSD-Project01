@@ -52,14 +52,14 @@ public class Welcome implements Screen {
     @Override
     public void GetUserInput() {
         char ch = 'y';
-        int sch;
-        while(ch == 'y' || ch == 'Y')   {
+        int sch = 0;
+        while(sch != 3) {//ch == 'y' || ch == 'Y')   {
             this.Show();
             System.out.print("Enter the choice : ");
             sch = sc.nextInt();
             this.NavigateOption(sch);
-            System.out.println("Do You Want to Continue ? (Y/N)");
-            ch = sc.next().charAt(0);
+            //System.out.println("Do You Want to Continue ? (Y/N)");
+            //ch = sc.next().charAt(0);
         }
     }
 }
