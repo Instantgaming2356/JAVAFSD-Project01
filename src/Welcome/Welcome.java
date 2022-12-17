@@ -23,17 +23,17 @@ public class Welcome implements Screen {
     public void introScreen() {
         System.out.println(welcomeText);
         System.out.println(developerText);
-        System.out.println("\n");
+        System.out.println();
+        System.out.println("Directory : " + DirectoryService.Path());
     }
-
     @Override
     public void Show() {
+        System.out.println();
         System.out.println("Main Menu");
         for (String s : options)  {
             System.out.println(s);
         }
     }
-
     @Override
     public void NavigateOption(int option) {
         switch(option) {
@@ -48,18 +48,15 @@ public class Welcome implements Screen {
         }
 
     }
-
     @Override
     public void GetUserInput() {
         char ch = 'y';
         int sch = 0;
-        while(sch != 3) {//ch == 'y' || ch == 'Y')   {
+        while(sch != 3) {
             this.Show();
             System.out.print("Enter the choice : ");
             sch = sc.nextInt();
             this.NavigateOption(sch);
-            //System.out.println("Do You Want to Continue ? (Y/N)");
-            //ch = sc.next().charAt(0);
         }
     }
 }

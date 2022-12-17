@@ -1,6 +1,5 @@
 package FileMenu;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.nio.file.FileSystems;
@@ -8,19 +7,19 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import Shared.Directory;
+import Services.DirectoryService;
 
 public class FileOperations {
 
     Scanner sc = new Scanner(System.in);
-    private static Directory ob = new Directory();
     String filename;
     char ch;
+
     public void AddFile()   {
         System.out.print("Please Enter the file name with extension to Create : ");
         filename = sc.nextLine();
 
-        File file = new File(ob.name + filename);
+        File file = new File(DirectoryService.Path() + filename);
         try {
             boolean val = file.createNewFile();
             if(val) {
@@ -32,7 +31,7 @@ public class FileOperations {
                     sc.nextLine();
                     String fileData = sc.nextLine();
                     try {
-                        FileWriter writeData = new FileWriter(ob.name + filename);
+                        FileWriter writeData = new FileWriter(DirectoryService.Path() + filename);
                         writeData.write(fileData);
                         System.out.println("Data is successfully added to the file.");
                         writeData.close();
@@ -46,12 +45,11 @@ public class FileOperations {
             e.printStackTrace();
         }
     }
-
     public void DeleteFile()    {
         System.out.print("Please Enter the file name with extension to Delete : ");
         filename = sc.nextLine();
 
-        File file = new File(ob.name + filename);
+        File file = new File(DirectoryService.Path() + filename);
         try {
             boolean val = file.delete();
             if(val) System.out.println("File Deleted!!!");
@@ -61,7 +59,6 @@ public class FileOperations {
             e.printStackTrace();
         }
     }
-
     public void SearchFile()    {
         Boolean found = false;
 
@@ -71,7 +68,7 @@ public class FileOperations {
 
         ArrayList<File> files = new ArrayList<File>();
 
-        Path path = FileSystems.getDefault().getPath(ob.name).toAbsolutePath();
+        Path path = FileSystems.getDefault().getPath(DirectoryService.Path()).toAbsolutePath();
         File Dfiles = path.toFile();
 
         File[] directoryFiles = Dfiles.listFiles();
