@@ -1,24 +1,23 @@
 ## Table of Contents
 
-- [General Info](#general-info)
-- [Problem Statement](#DESCRIPTION)
-- [Using the application](#using-the-application)
-- [Technologies](#technologies)
+- [General Info](#General-info)
+- [Problem Statement](#Description)
+- [Using the application](#Using-the-application)
+- [Technologies](#Technologies)
 
 
 ## General Info
 
 This is a file handling project in java.
 
+# Description
 
-# DESCRIPTION
-
-## Project objective:
+### Project objective:
 
 As a Full Stack Developer, complete the features of the application by planning the development in terms of sprints and then push the source code to the GitHub repository. As this is a prototyped application, the user interaction will be via a command line.
 
 
-## Background of the problem statement:
+### Background of the problem statement:
 
 Company Lockers Pvt. Ltd. hired you as a Full Stack Developer. They aim to digitize their products and chose LockedMe.com as their first project to start with. You’re asked to develop a prototype of the application. The prototype of the application will be then presented to the relevant stakeholders for the budget approval. Your manager has set up a meeting where you’re asked to present the following in the next 15 working days (3 weeks):
 
@@ -143,6 +142,8 @@ A Welcome introduction screen displays the application name, developer details, 
 
 <img alt = "Welcome Screen" src = "Images/WelcomeScreen.PNG">
 
+A File Menu displays the various file Operations that user can perform.
+
 <img alt = "File Menu Screen" src = "Images/FileScreen.PNG">
 
 The user has to select option from the user interface shown.
@@ -167,5 +168,5 @@ The user has to select option from the user interface shown.
 
 Technologies used in project:
 
--java 8
+-java 8 \
 -IntelliJ
