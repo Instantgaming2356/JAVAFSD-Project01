@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class FileOptions implements Screen {
 
-    private ArrayList<String> options = new ArrayList<>();
+    private final ArrayList<String> options = new ArrayList<>();
     FileOperations file = new FileOperations();
 
     public FileOptions() {

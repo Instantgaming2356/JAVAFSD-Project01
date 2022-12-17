@@ -9,9 +9,9 @@ import java.util.Collections;
 public class Directory {
 
     public String name = "src/Shared/";
-    private ArrayList<File> files = new ArrayList<File>();
+    private final ArrayList<File> files = new ArrayList<File>();
 
-    Path path = FileSystems.getDefault().getPath(name).toAbsolutePath();
+    public Path path = FileSystems.getDefault().getPath(name).toAbsolutePath();
     File Dfiles = path.toFile();
 
     public ArrayList<File> fillFiles() {

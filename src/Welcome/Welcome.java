@@ -8,10 +8,10 @@ import java.util.ArrayList;
 
 public class Welcome implements Screen {
 
-    private String welcomeText = "Welcome to JAVA FSV : Project 1";
-    private String developerText = "Developed By Anurag Sharma";
+    final String welcomeText = "***LOCKEDME.COM***";
+    final String developerText = "->Developed By Anurag Sharma";
 
-    private ArrayList<String> options = new ArrayList<>();
+    private final ArrayList<String> options = new ArrayList<>();
 
 
     public Welcome() {
@@ -23,8 +23,9 @@ public class Welcome implements Screen {
     public void introScreen() {
         System.out.println(welcomeText);
         System.out.println(developerText);
+        System.out.println("============================");
         System.out.println();
-        System.out.println("Directory : " + DirectoryService.Path());
+        System.out.println("Directory : " + DirectoryService.getFileDirectory().name);
     }
     @Override
     public void Show() {
@@ -44,13 +45,12 @@ public class Welcome implements Screen {
                 ScreenService.setCurrentScreen();
                 break;
             default:
+                System.out.println("\nThank You!!!");
                 break;
         }
-
     }
     @Override
     public void GetUserInput() {
-        char ch = 'y';
         int sch = 0;
         while(sch != 3) {
             this.Show();

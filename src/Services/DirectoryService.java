@@ -5,7 +5,7 @@ import Shared.Directory;
 import java.io.File;
 
 public class DirectoryService {
-    private static Directory fileDirectory = new Directory();
+    private static final Directory fileDirectory = new Directory();
 
     public static void PrintFiles() {
         fileDirectory.fillFiles();
@@ -16,6 +16,6 @@ public class DirectoryService {
         return fileDirectory;
     }
     public static String Path() {
-        return fileDirectory.name;
+        return fileDirectory.path.toString();        // return fileDirectory.name;
     }
 }

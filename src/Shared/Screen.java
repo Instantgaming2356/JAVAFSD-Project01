@@ -5,7 +5,7 @@ import java.util.Scanner;
 public interface Screen {
 
     Scanner sc = new Scanner(System.in);
-    public void Show();
-    public void NavigateOption(int option);
-    public void GetUserInput();
+    void Show();
+    void NavigateOption(int option);
+    void GetUserInput();
 }
