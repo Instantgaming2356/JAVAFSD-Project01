@@ -4,7 +4,7 @@
 - [Problem Statement](#Description)
 - [Using the application](#Using-the-application)
 - [Technologies](#Technologies)
-
+- [Setup](#Setup)
 
 ## General Info
 
@@ -170,3 +170,11 @@ Technologies used in project:
 
 -java 8 \
 -IntelliJ
+
+## Setup
+
+Run this as a Java Project
+
+```
+Launcher or main() method can be found in Core class under src folder and files are stored in src/Storage/.
+```
