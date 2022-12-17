@@ -44,8 +44,9 @@ public class Welcome implements Screen {
             case 2:
                 ScreenService.setCurrentScreen();
                 break;
-            default:
+            case 3:
                 System.out.println("\nThank You!!!");
+            default:
                 break;
         }
     }
