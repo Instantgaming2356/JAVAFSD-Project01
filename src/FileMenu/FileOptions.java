@@ -42,12 +42,14 @@ public class FileOptions implements Screen {
     }
     @Override
     public void GetUserInput() {
-        //char ch = 'y';
+        char ch;
         int sch = 0;
         while (sch != 4) {
             this.Show();
             System.out.print("Enter the choice : ");
-            sch = sc.nextInt();
+            ch = sc.next().charAt(0);
+            //sch = sc.nextInt();
+            sch = (int)ch - 48;
             this.NavigateOption(sch);
         }
     }

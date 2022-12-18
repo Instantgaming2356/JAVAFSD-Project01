@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550bdefd-6cf6-41cf-9148-cf5d3be58863" name="Changes" comment="Master Commit 9">
+    <list default="true" id="550bdefd-6cf6-41cf-9148-cf5d3be58863" name="Changes" comment="Master Commit 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileMenu/FileOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileMenu/FileOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Welcome/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Welcome/Welcome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671339576710</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Master Commit 10">
+      <created>1671344264317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671344264317</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +235,7 @@
     <MESSAGE value="Master Commit 7" />
     <MESSAGE value="Master Commit 8" />
     <MESSAGE value="Master Commit 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master Commit 9" />
+    <MESSAGE value="Master Commit 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master Commit 10" />
   </component>
 </project>

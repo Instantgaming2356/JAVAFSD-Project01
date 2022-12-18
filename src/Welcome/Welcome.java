@@ -54,10 +54,13 @@ public class Welcome implements Screen {
     @Override
     public void GetUserInput() {
         int sch = 0;
+        char ch;
         while(sch != 3) {
             this.Show();
             System.out.print("Enter the choice : ");
-            sch = sc.nextInt();
+            ch = sc.next().charAt(0);
+            //sch = sc.nextInt();
+            sch = (int)ch - 48;
             this.NavigateOption(sch);
         }
     }
