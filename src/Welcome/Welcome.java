@@ -58,8 +58,7 @@ public class Welcome implements Screen {
         while(sch != 3) {
             this.Show();
             System.out.print("Enter the choice : ");
-            ch = sc.next().charAt(0);
-            //sch = sc.nextInt();
+            ch = sc.next().charAt(0); //sch = sc.nextInt();
             sch = (int)ch - 48;
             this.NavigateOption(sch);
         }
