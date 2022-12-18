@@ -7,7 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550bdefd-6cf6-41cf-9148-cf5d3be58863" name="Changes" comment="Master Commit 7" />
+    <list default="true" id="550bdefd-6cf6-41cf-9148-cf5d3be58863" name="Changes" comment="Master Commit 8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileMenu/FileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileMenu/FileOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileMenu/FileOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileMenu/FileOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/DirectoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/DirectoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shared/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Welcome/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Welcome/Welcome.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671287386972</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Master Commit 8">
+      <created>1671288166310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671288166310</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +223,7 @@
     <MESSAGE value="Master Commit 4" />
     <MESSAGE value="Master Commit 6" />
     <MESSAGE value="Master Commit 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master Commit 7" />
+    <MESSAGE value="Master Commit 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master Commit 8" />
   </component>
 </project>
