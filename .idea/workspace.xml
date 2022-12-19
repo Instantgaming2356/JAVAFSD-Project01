@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="550bdefd-6cf6-41cf-9148-cf5d3be58863" name="Changes" comment="Master Commit 12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="550bdefd-6cf6-41cf-9148-cf5d3be58863" name="Changes" comment="Master Commit 13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671350129617</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Master Commit 13">
+      <created>1671445364865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671445364865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +161,7 @@
     <MESSAGE value="Develop Commit 4" />
     <MESSAGE value="Master Commit 11" />
     <MESSAGE value="Master Commit 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master Commit 12" />
+    <MESSAGE value="Master Commit 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master Commit 13" />
   </component>
 </project>
