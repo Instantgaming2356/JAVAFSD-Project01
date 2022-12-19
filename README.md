@@ -140,11 +140,11 @@ Following requirements should be met:
 
 A Welcome introduction screen displays the application name, developer details, directory information and main menu.
 
-<img alt = "Welcome Screen" src = "Images/WelcomeScreen.PNG">
+<img alt = "Welcome Screen" src = "https://github.com/Instantgaming2356/JAVAFSD-Project01/blob/master/Images/WelcomeScreen.png">
 
 A File Menu displays the various file Operations that user can perform.
 
-<img alt = "File Menu Screen" src = "Images/FileScreen.PNG">
+<img alt = "File Menu Screen" src = "https://github.com/Instantgaming2356/JAVAFSD-Project01/blob/master/Images/FileScreen.png">
 
 The user has to select option from the user interface shown.
 
